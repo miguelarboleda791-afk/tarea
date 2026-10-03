@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F4F7FB;
+    color: #172033;
+    line-height: 1.6;
+}
+
+/* ENCABEZADO */
+header {
+    background: linear-gradient(135deg, #172554, #2563EB);
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #DBEAFE;
+    font-size: 18px;
+}
+
+/* CONTENEDOR PRINCIPAL */
+main {
+    width: 90%;
+    max-width: 900px;
+    margin: 40px auto;
+}
+
+/* TARJETAS */
+.ejercicio {
+    background-color: #FFFFFF;
+    margin-bottom: 30px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(23, 37, 84, 0.10);
+    border: 1px solid #E2E8F0;
+}
+
+.ejercicio h2 {
+    color: #172554;
+    margin-bottom: 12px;
+}
+
+.ejercicio p {
+    color: #475569;
+    margin-bottom: 18px;
+}
+
+/* LISTA */
+.ejercicio ul {
+    margin: 15px 0 20px 25px;
+    color: #475569;
+}
+
+/* BOTONES */
+button {
+    background: linear-gradient(135deg, #2563EB, #1D4ED8);
+    color: white;
+    border: none;
+    padding: 13px 22px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #1D4ED8, #1E3A8A);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(37, 99, 235, 0.3);
+}
+
+/* RESULTADOS */
+.resultado {
+    margin-top: 20px;
+    padding: 18px;
+    background-color: #EFF6FF;
+    border-left: 5px solid #2563EB;
+    border-radius: 8px;
+    color: #172554;
+}
+
+/* PIE DE PÁGINA */
+footer {
+    text-align: center;
+    background-color: #172554;
+    color: #DBEAFE;
+    padding: 25px;
+    margin-top: 50px;
+}

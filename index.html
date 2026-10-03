@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ejercicios</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Ejercicios</h1>
+        <p>Algoritmos secuenciales, condicionales y switch</p>
+    </header>
+
+    <main>
+
+        <!-- EJERCICIO 1 -->
+        <section class="ejercicio">
+            <h2>1. Calculadora de Propina</h2>
+
+            <p>
+                Calcula la propina y el total de una cuenta
+                utilizando el monto y el porcentaje indicado.
+            </p>
+
+            <button onclick="calculadoraPropina()">
+                Calcular Propina
+            </button>
+
+            <div id="resultadoPropina" class="resultado"></div>
+        </section>
+
+
+        <!-- EJERCICIO 2 -->
+        <section class="ejercicio">
+            <h2>2. Clasificador de IMC</h2>
+
+            <p>
+                Calcula el Índice de Masa Corporal y muestra
+                la categoría correspondiente.
+            </p>
+
+            <button onclick="clasificadorIMC()">
+                Calcular IMC
+            </button>
+
+            <div id="resultadoIMC" class="resultado"></div>
+        </section>
+
+
+        <!-- EJERCICIO 3 -->
+        <section class="ejercicio">
+            <h2>3. Menú de Utilidades</h2>
+
+            <p>
+                Selecciona una de las siguientes opciones:
+            </p>
+
+            <ul>
+                <li>1. Celsius → Fahrenheit</li>
+                <li>2. Precio con IVA</li>
+                <li>3. Nota (0–100) → Letra</li>
+            </ul>
+
+            <button onclick="menuUtilidades()">
+                Abrir menú
+            </button>
+
+            <div id="resultadoMenu" class="resultado"></div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Práctica de JavaScript - Visual Studio Code</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
